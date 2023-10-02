@@ -93,4 +93,6 @@ let name2 = "John";
 console.log(name1 !== name2);
 
 let uguaglianza = name1 === name2.toLowerCase() ? "uguali" : "diverse";
-console.log("le due variabili sono " + uguaglianza);
+console.log(
+  `portando tutti i caratteri in minuscolo le due variabili sono  ${uguaglianza}`
+);
