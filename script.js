@@ -22,7 +22,7 @@ let num2 = 1.3;
 // programmazione (es flot, long, double. ecc)
 let boleano = true;
 let boleano2 = false;
-// variabili di tipo "bolean" contenente solo due possibili valori true e false
+// variabili di tipo "bolean" contenente solo due possibili valori true o false
 let ancoraDaDefinire;
 ancoraDaDefinire = 5;
 // variabile di tipo "undefined" creata senza un valore che potra essere aggiunto in seguito
@@ -78,7 +78,7 @@ console.log(MioCogmome);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-console.log((x -= 4));
+console.log(x - 4);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -92,7 +92,8 @@ let name1 = "john";
 let name2 = "John";
 console.log(name1 !== name2);
 
-let uguaglianza = name1 === name2.toLowerCase() ? "uguali" : "diverse";
+let uguaglianza =
+  name1.toLowerCase() === name2.toLowerCase() ? "uguali" : "diverse";
 console.log(
   `portando tutti i caratteri in minuscolo le due variabili sono  ${uguaglianza}`
 );
